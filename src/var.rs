@@ -7,6 +7,12 @@ pub fn run(){
     age += 1;
     println!("I'm now {} years old", age);
 
+
+    // you can reassign to another datatype with let
+    let age = "23";
+
+    println!("I'm now {} years old", age);
+
     // define constants
     const ID: i32 = 64;
     println!("My ID is {ID}");

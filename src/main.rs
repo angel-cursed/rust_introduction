@@ -1,8 +1,11 @@
-mod print;
-mod var;
-mod data_types;
+mod vectors;
 
-fn main() {
+fn main() {/*
     print::run();
-    var::run()
+    var::run();
+    data_types::run();
+    strings::strings_intro();
+    tuples::tuples_intro();
+    arrays::arrays();*/
+    vectors::vectors_intro();
 }
