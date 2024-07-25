@@ -1,4 +1,5 @@
-mod vectors;
+mod cli;
+mod input;
 
 fn main() {/*
     print::run();
@@ -6,6 +7,13 @@ fn main() {/*
     data_types::run();
     strings::strings_intro();
     tuples::tuples_intro();
-    arrays::arrays();*/
+    arrays::arrays();
     vectors::vectors_intro();
+    loops::run();
+    functions::run();
+    pointers::run();
+    structs::run();
+    enums::run();*/
+    cli::run();
+    input::run();
 }
